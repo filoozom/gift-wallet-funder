@@ -1,3 +1,4 @@
+import dotenv from "dotenv";
 import { getDefaultProvider, Wallet, Contract } from "ethers";
 import { writeFile } from "fs/promises";
 
@@ -6,6 +7,7 @@ import abi from "./abi.json" assert { type: "json" };
 import erc20 from "./erc20.json" assert { type: "json" };
 
 // Env
+dotenv.config();
 const {
   RPC,
   PRIVATE_KEY,
