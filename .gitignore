@@ -1,2 +1,4 @@
+/wallets
 wallets-*.json
 node_modules
+.env

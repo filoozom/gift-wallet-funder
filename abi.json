@@ -3,25 +3,19 @@
     "inputs": [
       {
         "internalType": "contract ERC20",
-        "name": "bzzAddress",
+        "name": "token",
         "type": "address"
       },
       {
         "internalType": "uint256",
-        "name": "bzzAmount",
+        "name": "tokenAmount",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
         "name": "nativeAmount",
         "type": "uint256"
-      }
-    ],
-    "stateMutability": "nonpayable",
-    "type": "constructor"
-  },
-  {
-    "inputs": [
+      },
       {
         "internalType": "address payable[]",
         "name": "addresses",
